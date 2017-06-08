@@ -19,7 +19,7 @@ Within the OMESA model, Core Capabilities can also be mapped to one or more qual
 
 Identifying the desired and / or necessary Core Capabilities for a particular solution as well as the Design Patterns best suited to realize them is key when it comes to delivering an assertive design and eventually justifying specific implementation choices. 
 
-<i><small><sup>1</sup> For the purpose of this body of work we have researched and handpicked a set of patterns from references which we consider highly qualified. However, both individuals and organizations are encouraged to apply their own criteria when choosing, qualifying and mapping their trusted design patterns to OMESA's Core Capability model.</small></i>
+<i><small><sup>1</sup> For the purpose of this body of work we have researched and handpicked a set of patterns from references which we consider highly qualified. However, both individuals and organizations are encouraged to apply their own criteria when choosing, qualifying and mapping their trusted design patterns to architectural blueprints based on OMESA's Core Capability model.</small></i>
 
 ## Core Capability Definitions
 
