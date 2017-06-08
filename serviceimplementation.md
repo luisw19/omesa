@@ -23,7 +23,7 @@ Identifying the desired and / or necessary Core Capabilities for a particular so
 
 ## Core Capability Definitions
 
-* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. Can be realized by applying design patterns such as: [Capability Composition][link1], [Process Abstraction][link2], [Composed Message Processor][link3], [Correlation Identifier][link4].
+* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. Can be realized by applying design patterns such as: [Capability Composition][link1], [Process Abstraction][link2], [Composed Message Processor][link3].
 * **Service Virtualization** - Promotes loose coupling between application logic providers and its consumers by abstracting physical components through an intermediary service layer. 
 * **Service State Management** - Enables a group of semi-decoupled services to transition across stateful / stateless conditions predictably and on-demand, by temporarily deferring service state data to a dedicated repository. 
 * **Shared Runtime** - Provides a centralized design and execution platform where multiple physical / logical resources are made available and shared by whole service inventories. 
@@ -42,7 +42,19 @@ Identifying the desired and / or necessary Core Capabilities for a particular so
 
 ## References
 
-[link1]: <http://www.reactivemanifesto.org>
-[link2]: <https://12factor.net>
-[link3]: <http://microservices.io>
-[link4]: </contributors>
+http://soapatterns.org/		
+http://www.enterpriseintegrationpatterns.com		
+https://martinfowler.com/		
+http://www.reactivemanifesto.org		
+https://github.com/Netflix/Hystrix/wiki/How-it-Works	
+http://www.cloudcomputingpatterns.org/	
+http://assets.en.oreilly.com/1/event/79/Stability%20Patterns%20Presentation.pdf	
+https://www.thoughtworks.com/insights/microservices	
+https://12factor.net/	
+https://grizzly.java.net/	
+http://coresecuritypatterns.com/patterns.htm		
+
+[link1]: <http://soapatterns.org/design_patterns/capability_composition>
+[link2]: <http://soapatterns.org/design_patterns/process_abstraction>
+[link3]: <http://www.enterpriseintegrationpatterns.com/patterns/messaging/DistributionAggregate.html>
+
