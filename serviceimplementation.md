@@ -42,17 +42,19 @@ Identifying the desired and / or necessary Core Capabilities for a particular so
 
 ## References
 
-http://soapatterns.org/		
-http://www.enterpriseintegrationpatterns.com		
-https://martinfowler.com/		
-http://www.reactivemanifesto.org		
-https://github.com/Netflix/Hystrix/wiki/How-it-Works	
-http://www.cloudcomputingpatterns.org/	
-http://assets.en.oreilly.com/1/event/79/Stability%20Patterns%20Presentation.pdf	
-https://www.thoughtworks.com/insights/microservices	
-https://12factor.net/	
-https://grizzly.java.net/	
-http://coresecuritypatterns.com/patterns.htm		
+The following references were used by OMESA for research and example purposes
+
+* http://soapatterns.org/		
+* http://www.enterpriseintegrationpatterns.com		
+* https://martinfowler.com/		
+* http://www.reactivemanifesto.org		
+* https://github.com/Netflix/Hystrix/wiki/How-it-Works	
+* http://www.cloudcomputingpatterns.org/	
+* http://assets.en.oreilly.com/1/event/79/Stability%20Patterns%20Presentation.pdf	
+* https://www.thoughtworks.com/insights/microservices	
+* https://12factor.net/	
+* https://grizzly.java.net/	
+* http://coresecuritypatterns.com/patterns.htm		
 
 [link1]: <http://soapatterns.org/design_patterns/capability_composition>
 [link2]: <http://soapatterns.org/design_patterns/process_abstraction>
