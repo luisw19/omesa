@@ -19,6 +19,8 @@ Within the OMESA model, Core Capabilities can also be mapped to one or more qual
 
 Identifying the desired and / or necessary Core Capabilities for a particular solution as well as the Design Patterns best suited to realize them is key when it comes to delivering an assertive design and eventually justifying specific implementation choices. 
 
+## Core Capability Definitions
+
 * **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. Can be realized by applying design patterns such as: [Capability Composition][link1], [Process Abstraction][link2], [Composed Message Processor][link3], [Correlation Identifier][link4].
 * **Service Virtualization** - Promotes loose coupling between application logic providers and its consumers by abstracting physical components through an intermediary service layer. 
 * **Service State Management** - Enables a group of semi-decoupled services to transition across stateful / stateless conditions predictably and on-demand, by temporarily deferring service state data to a dedicated repository. 
