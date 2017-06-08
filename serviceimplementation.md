@@ -13,7 +13,7 @@ As shown by the following diagram, some of the Service Implementation Layer's Co
 
 ![](/images/omesa_service_implementation_2.png)
 
-So for example, "Shared Runtime" would clearly speak of a semi-decoupled solution while "Choreography" or "Stateless Processing" inequivocally relate to fully-decoupled services. In the case of "Domain Driven Design", while it could be applied to some extent in a semi-decoupled scenario (for example a traditional SOA Architecture), it's much more suited and thus clearly leans towards the fully-decoupled side.
+So for example, "Shared Runtime" would clearly speak of a semi-decoupled solution while "Choreography" or "Stateless Processing" inequivocally relate to fully-decoupled services. In the case of "Domain Driven Design", while it could be applied to some extent in a semi-decoupled scenario (for example a traditional SOA Architecture), it's much more suited and thus appears clearly tilted towards the fully-decoupled side.
 
 Within the OMESA model, Core Capabilities can also be mapped to one or more qualified<sup>1</sup> design patterns, thus providing a link between abstract and concrete design views. 
 
