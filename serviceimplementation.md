@@ -23,7 +23,7 @@ Identifying the desired and / or necessary Core Capabilities for a particular so
 
 ## Core Capability Definitions
 
-* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. Can be realized by applying design patterns such as: [Capability Composition][link1], [Process Abstraction][link2], [Composed Message Processor][link3].
+* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. This capability can be realized by applying design patterns such as: [Capability Composition][link1], [Process Abstraction][link2], [Composed Message Processor][link3].
 * **Service Virtualization** - Promotes loose coupling between application logic providers and its consumers by abstracting physical components through an intermediary service layer. 
 * **Service State Management** - Enables a group of semi-decoupled services to transition across stateful / stateless conditions predictably and on-demand, by temporarily deferring service state data to a dedicated repository. 
 * **Shared Runtime** - Provides a centralized design and execution platform where multiple physical / logical resources are made available and shared by whole service inventories. 
