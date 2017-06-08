@@ -11,7 +11,15 @@ This layer’s role within a Software Architecture, would be to provide a set of
 
 ![](/images/omesa_service_implementation_2.png)
 
-* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. 
+As shown by the diagram above, some of the Service Implementation Layer's Core Capabilities are common to both of its sub-layers, while others can be much more suitable or even exclusive to one of them. 
+
+Within the OMESA model, Core Capabilities can also be mapped to one or more qualified<sup>1</sup> design patterns, thus providing a link between abstract and concrete design views. 
+
+![](/images/omesa_service_implementation_3.png)
+
+Identifying the desired and / or necessary capabilities for a particular solution as well as the Design Patterns best suited to realize them is key when it comes to delivering an assertive design and eventually justifying specific implementation choices. 
+
+* **Orchestration** - Supports the automated execution, coordination and management of workflows comprised by complex service composition logic. Can be realized by applying design patterns such as: [Capability Composition][link_si_1], [Process Abstraction][link_si_2], [Composed Message Processor][link_si_3], [Correlation Identifier][link_si_4].
 * **Service Virtualization** - Promotes loose coupling between application logic providers and its consumers by abstracting physical components through an intermediary service layer. 
 * **Service State Management** - Enables a group of semi-decoupled services to transition across stateful / stateless conditions predictably and on-demand, by temporarily deferring service state data to a dedicated repository. 
 * **Shared Runtime** - Provides a centralized design and execution platform where multiple physical / logical resources are made available and shared by whole service inventories. 
