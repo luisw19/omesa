@@ -9,15 +9,17 @@ This layer’s role within a Software Architecture, would be to provide a set of
 
 ## Core Capabilities
 
-![](/images/omesa_service_implementation_2.png)
+As shown by the following diagram, some of the Service Implementation Layer's Core Capabilities are common to both of its sub-layers, while others can be much more suitable or even exclusive to one of them. 
 
-As shown by the diagram above, some of the Service Implementation Layer's Core Capabilities are common to both of its sub-layers, while others can be much more suitable or even exclusive to one of them. 
+![](/images/omesa_service_implementation_2.png)
 
 Within the OMESA model, Core Capabilities can also be mapped to one or more qualified<sup>1</sup> design patterns, thus providing a link between abstract and concrete design views. 
 
 ![](/images/omesa_service_implementation_3.png)
 
 Identifying the desired and / or necessary Core Capabilities for a particular solution as well as the Design Patterns best suited to realize them is key when it comes to delivering an assertive design and eventually justifying specific implementation choices. 
+
+<sup>1</sup> For the purpose of this body of work we have researched and handpicked a set of patterns from references which we consider highly qualified. However, both individuals and organizations are encouraged to apply their own criteria when choosing, qualifying and mapping their trusted design patterns to OMESA's Core Capability model.
 
 ## Core Capability Definitions
 
@@ -37,6 +39,8 @@ Identifying the desired and / or necessary Core Capabilities for a particular so
 * **Stateless Processing** - Enhances service scalability by using state offloading techniques to minimize resource consumption while still guaranteeing consistent output.
 * **Independent Runtime** - Ensures development, deployment and execution independence for a particular set of fine-grained services.
 * **Domain Driven Design** - Facilitates the design and development of complex software projects byestablishing flexible building blocks and a common language around a well-defined domain core. 
+
+## References
 
 [link1]: <http://www.reactivemanifesto.org>
 [link2]: <https://12factor.net>
