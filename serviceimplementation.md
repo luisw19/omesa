@@ -1,19 +1,21 @@
-# Service Implementation Layer
+# Service Implementation
 
-This layer’s role within a Software Architecture, would be to provide a set of distinct capabilities in support of the realization of goals associated with the Service Orientation paradigm.  Depending on the level of decoupling enforced by specific service design, OMESA divides the Service Implementation layer into two sub-layers: 
+The Service Implementation building block provides a set of distinct capabilities in support of the realization of goals associated with the Service Orientation paradigm. In OMESA, "services" can be basically defined as bounded applications or components which abstract and encapsulate business functionality making it accessible through endpoints based on standard protocols (e.g. HTTP/JSON or HTTP/SOAP). 
+
+Depending on specific design concerns and the combination of capabilities required to address them, OMESA acknowledges two general service implementation styles: 
 
 ![](/images/omesa_service_implementation_1.png)
 
-1. **Semi-Decoupled:** Services in this category are commonly those implemented under a SOA architecture, with high potential for reusability & composability but low physical / logical autonomy. 
-2. **Fully-Decoupled:** This kind of services are highly autonomous and mostly self-contained. A solution in this category would commonly be associated with implementation styles such as Microservices, SCS (Self-Contained Systems), etc.
+1. **Semi-Decoupled:** Services in this category are commonly those implemented under traditional Service Oriented Architectures (SOA), therefore sharing a common runtime environent. They are usually aimed for a high degree of reusability & composability at the cost of low physical / logical autonomy. 
+2. **Fully-Decoupled:** This kind of services are highly autonomous and mostly self-contained. They don't share a runtime environment and are usually associated with architectural styles such as Microservices Architecture and Self-Contained Systems (SCS).
 
 ## Core Capabilities
 
-As shown by the following diagram, some of the Service Implementation Layer's Core Capabilities are common to both of its sub-layers, while others can be much more suitable or even exclusive to one of them. 
+As shown by the following diagram, some of the Core Capabilities are common to both service implementation styles, while others can be much more suitable or even exclusive to one of them. 
 
 ![](/images/omesa_service_implementation_2.png)
 
-So for example, "Shared Runtime" would clearly speak of a semi-decoupled solution while "Choreography" or "Stateless Processing" inequivocally relate to fully-decoupled services. In the case of "Domain Driven Design", while it could be applied to some extent in a semi-decoupled scenario (for example a traditional SOA Architecture), it's much more suited and thus appears clearly tilted towards the fully-decoupled side.
+So for example, "Shared Runtime" would clearly speak of a semi-decoupled solution while "Independent Runtime", "Choreography" or "Stateless Processing" inequivocally relate to fully-decoupled services. In the case of "Service Stability" or "Domain Driven Design", while they could be applied to some extent in a semi-decoupled scenario (for example a traditional SOA Architecture), they're much more suited and thus appear clearly tilted towards the fully-decoupled side.
 
 Within the OMESA model, Core Capabilities can also be mapped to one or more qualified<sup>1</sup> design patterns, thus providing a link between abstract and concrete design views. 
 
