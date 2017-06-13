@@ -17,13 +17,13 @@ As shown by the following diagram, some of the Core Capabilities are common to b
 
 So for example, "Shared Runtime" would clearly speak of a semi-decoupled solution while "Independent Runtime", "Choreography" or "Stateless Processing" inequivocally relate to fully-decoupled services. In the case of "Service Stability" or "Domain Driven Design", while they could be applied to some extent in a semi-decoupled scenario (for example a traditional SOA Architecture), they're much more suited and thus appear clearly tilted towards the fully-decoupled side.
 
-Within the OMESA model, Core Capabilities can also be mapped to one or more qualified<sup>1</sup> design patterns, thus providing a link between abstract and concrete design views. 
+Within the OMESA model, Core Capabilities can also be mapped to one or more Design Patterns, thus providing a link between abstract and concrete design views. 
 
 ![](/images/omesa_service_implementation_3.png)
 
 Identifying the desired and / or necessary Core Capabilities for a particular solution as well as the Design Patterns best suited to realize them is key when it comes to delivering an assertive design and eventually justifying specific implementation choices. 
 
-<i><small><sup>1</sup> For the purpose of this body of work we have researched and handpicked a set of patterns from references which we consider highly qualified. However, both individuals and organizations are encouraged to apply their own criteria when choosing, qualifying and mapping their trusted design patterns to architectural blueprints based on OMESA's Core Capability model.</small></i>
+<i><small><sup>*</sup>Although design pattern documentation is not within OMESA's main concerns, for the purpose of this body of work we have researched and handpicked a set of references which we consider highly qualified. However, both individuals and organizations are encouraged to apply their own criteria when choosing, qualifying and mapping their trusted design patterns to architectural blueprints based on OMESA's Core Capability model.</small></i>
 
 ## Core Capability Definitions
 
