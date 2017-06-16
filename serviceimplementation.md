@@ -1,6 +1,6 @@
 # Service Implementation
 
-The Service Implementation building block provides a set of distinct capabilities in support of the realization of goals associated with the Service Orientation paradigm. In OMESA, "services" can be basically defined as bounded applications or components which abstract and encapsulate business functionality making it accessible through endpoints based on standard protocols (e.g. HTTP/JSON or HTTP/SOAP). 
+The Service Implementation building block provides a set of distinct capabilities in support of the realization of goals associated with the Service Orientation paradigm. In OMESA, a services is defined as a bounded application that abstracts and encapsulates business functionality making it accessible through a standard endpoint.
 
 Depending on specific design concerns and the combination of capabilities required to address them, OMESA acknowledges two general service implementation styles: 
 
